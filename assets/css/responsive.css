@@ -1,0 +1,111 @@
+@media (max-width:1030px) {
+
+    /* Home css */
+    .home .home-banner-1,
+    .home .home-banner-3,
+    .home .home-banner-4 {
+        background-position: -0% -10% center;
+        min-height: 260px;
+    }
+
+    .home .home-banner .home-banner-text {
+        transform: translate(-60%, -30%);
+    }
+
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 3rem;
+    }
+
+    .special .countdown-container .countdown-counter li {
+        padding: 1rem;
+        width: 20%;
+    }
+}
+
+@media (max-width:1280px) and (min-width:1050px) {
+
+    /* Home css */
+    .home .home-banner .home-banner-text {
+        transform: translate(-50%, -80%);
+        margin-left: 2.5%;
+        margin-top: 1%;
+    }
+
+    .special .countdown-container .countdown-counter li {
+        padding: 1rem;
+        width: 18%;
+    }
+}
+
+@media (max-width:991px) and (min-width:500px) {
+
+    /* Home css */
+    .home .home-banner .home-banner-text {
+        transform: translate(-20%, -50%);
+    }
+
+    .special .countdown-container {
+        padding-top: 0;
+        padding-bottom: 5rem;
+    }
+
+    .special .countdown-container .countdown-counter li {
+        padding: 1rem;
+        width: 15%;
+    }
+}
+
+@media (max-width:500px) {
+
+    /* Home css */
+    .home .home-banner-1,
+    .home .home-banner-3,
+    .home .home-banner-4 {
+        background-position: -0% -10%;
+        min-height: 140px;
+    }
+
+    .home .home-banner .home-banner-text {
+        height: fit-content;
+        font-size: xx-small;
+        text-align: center;
+        transform: translate(-20%, -60%);
+    }
+
+    .home .home-banner .home-banner-text .btn-danger {
+        max-height: 1px;
+        text-align: center;
+
+    }
+
+    .home .carousel-indicators [data-bs-target] {
+        background-color: var(--bg-danger);
+        width: 1.5rem;
+        height: 0.25rem;
+        margin-bottom: -5%;
+    }
+
+    .products .up_to_content h2 {
+        font-size: 0.8rem;
+    }
+
+    .special .countdown-container {
+        padding-top: 0;
+        padding-bottom: 5rem;
+    }
+
+    .special {
+        padding: 4rem 0;
+    }
+
+    .special .countdown-container .countdown-counter li {
+        padding: 0.5rem;
+        width: 20%;
+    }
+
+    .testimonial .carousel-control-next-icon,
+    .testimonial .carousel-control-prev-icon {
+        background-color: transparent;
+    }
+
+}
